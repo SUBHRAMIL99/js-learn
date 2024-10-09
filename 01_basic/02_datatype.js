@@ -27,3 +27,4 @@ let temp = null
 
 console.log(typeof state); // undefined datatype
 console.log(typeof temp); // Null is show as a object datatype
+console.log(typeof isLoggedIn); // 
