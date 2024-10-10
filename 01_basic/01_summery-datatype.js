@@ -38,3 +38,31 @@ console.log(typeof myFynction);
 
 
 
+// *-***  ++   Memeory ++ *** //
+
+// Stack Memory (primitive) //and\\ Heap Memory (Non-Primitive)
+
+// Stach give a Copy data
+let value = "hello babai"
+let anotheName = value
+anotheName = "subhranil"
+
+console.log(value);
+console.log(anotheName);
+
+
+
+// heap give original data 
+
+let userObj={
+    nemae: "Subhranil",
+    age: 24
+}
+
+let userTwo = userObj
+
+userTwo.age = 22
+
+console.log(userObj);
+console.log(userTwo);
+
